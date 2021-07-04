@@ -1,0 +1,57 @@
+.light {
+	background-color:#A8CABA;
+	width:1000px;
+	height:600px;
+	
+}
+
+.waterdrop{
+	position: relative;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	left:100px;
+	background-image: linear-gradient(to right, #56CCF2, #2F80ED);
+	z-index: 2;
+	top: 100px;
+}
+
+.ground{
+	width:1000px;
+	
+	background-image:url("flappybird-pipe.png");
+	height: 40px;
+	position:relative;
+	top:550px;
+	margin-top:-40px;
+	
+}
+
+.hole {
+	height:40px;
+	position:relative;
+	background-color: #A8CABA;
+	
+	top:550px;
+	margin-top:-40px;
+	
+}
+
+.added{
+	position:relative;
+	background-color:yellow;
+	width:1000px;
+	height:600px;
+	display:none;
+
+}
+.menu {
+	background-color:green;
+	position:relative;
+	top:400px;
+	left:450px;
+	width:100px;
+	height:40px;
+	color:black;
+	display:none;
+}
